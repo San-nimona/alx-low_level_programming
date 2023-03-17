@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * betty style doc for function main goes there
- * main - prints rnd number
+ * main - this prints rnd number and says if it's positive or negative
  * n: takes rnd no.
  * Return: value 0
- */
+*/
+
 int main(void)
 {
 	int n;
