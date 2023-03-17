@@ -4,7 +4,7 @@
  * main - prints a-z
  *
  * i: ASCII values
- *
+ * Return: value 0
  */
 
 int main(void)
