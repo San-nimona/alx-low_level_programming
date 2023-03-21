@@ -2,7 +2,7 @@
 
 /**
  * _islower - indicates lowercase
- *
+ * @c: argument of function
  * Return: Always 0 (success)
  */
 
