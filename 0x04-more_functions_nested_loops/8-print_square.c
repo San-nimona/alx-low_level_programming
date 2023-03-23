@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints squares nXn
- *
+ * @size: square size
  *
  */
 
