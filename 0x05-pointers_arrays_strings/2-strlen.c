@@ -2,7 +2,6 @@
 /**
  * _strlen - check the code
  * @s: for the string
- * @ch: the array
  * Return: the value to be returned
  */
 
