@@ -1,10 +1,7 @@
 #include "main.h"
 
-int is_divisible(int num, int i);
-int is_prime_number(int n);
-
 /**
- * is_divisible - Checks divisibility
+ * is_divis - Checks divisibility
  * @num: The number to be checked
  * @i: the divisor
  *
