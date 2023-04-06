@@ -8,7 +8,7 @@
 int strlen_wo_wilds(char *s)
 {
 	int len = 0;
-       	int i = 0;
+	int i = 0;
 
 	if (*(s + i))
 	{
@@ -37,7 +37,7 @@ void find_wild(char **wildstr)
 
 /**
  * postfix_match - matches strings
- * @str: The string to be matched
+ * @s: The string to be matched
  * @postfix: the string after
  *
  * Return: a char
