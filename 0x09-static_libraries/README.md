@@ -1,1 +1,2 @@
-0x09-static_libraries
+0x09-static libraries
+create_static_lib.sh: creates a static lib
