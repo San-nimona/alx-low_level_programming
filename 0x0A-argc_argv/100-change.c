@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 			cent -= 2;
 			coins++;
 		}
-		else
+		else if (cent >= 1)
 		{
 			cent -= 1;
 			coins++;
