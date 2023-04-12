@@ -28,7 +28,6 @@ int word_count(char *str)
 
 	for (i = 0; *(str + i); i++)
 		len++;
-
 	i = 0;
 	while (i < len)
 	{
@@ -56,41 +55,31 @@ char **strtow(char *str)
 
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
-
 	words = word_count(str);
 	if (words == 0)
 		return (NULL);
-
 	s = malloc(sizeof(char *) * (words + 1));
 	if (s == NULL)
 		return (NULL);
-
 	w = 0;
-       	while (w < words)
+	while (w < words)
 	{
 		while (str[i] == ' ')
 			i++;
-
 		letters = w_len(str + i);
-
 		s[w] = malloc(sizeof(char) * (letters + 1));
-
 		if (s[w] == NULL)
 		{
 			for (; w >= 0; w--)
 				free(s[w]);
-
 			free(s);
 			return (NULL);
 		}
-
 		for (l = 0; l < letters; l++)
 			s[w][l] = str[i++];
-
 		s[w][l] = '\0';
 		w++;
 	}
 	s[w] = NULL;
-
 	return (s);
 }
