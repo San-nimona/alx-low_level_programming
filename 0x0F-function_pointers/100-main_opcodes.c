@@ -25,8 +25,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(2);
 	}
-	i = 0; 
-	while (i < size)
+	for (i = 0; i < size; i++)
 	{
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
@@ -35,7 +34,6 @@ int main(int argc, char **argv)
 			continue;
 		printf(" ");
 		address++;
-		i++;
 	}
 
 	printf("\n");
