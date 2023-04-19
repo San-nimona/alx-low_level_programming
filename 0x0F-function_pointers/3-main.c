@@ -32,9 +32,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(100);
 	}
-	if (selected_op != NULL)
-	{
-		printf("%d\n", selected_op(x, y));
-	}
+	printf("%d\n", selected_op(x, y));
 	return (0);
 }
