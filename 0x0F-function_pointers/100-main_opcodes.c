@@ -13,7 +13,6 @@ int main(int argc, char **argv)
 	int size, i;
 	int (*address)(int, char **) = main;
 	unsigned char opcode;
-	int j = size - 1;
 
 	if (argc != 2)
 	{
@@ -32,7 +31,7 @@ int main(int argc, char **argv)
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
-		if (i == j)
+		if (i == size - 1)
 			continue;
 		printf(" ");
 		address++;
