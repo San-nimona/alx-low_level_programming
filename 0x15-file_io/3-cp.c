@@ -7,7 +7,7 @@ void close_fd(int fd);
 
 /**
  * buff - creates new buffer
- * @file: name of the file
+ * @filename: name of the file
  * Return: A pointer to the craeted buffer
  */
 char *buff(char *filename)
