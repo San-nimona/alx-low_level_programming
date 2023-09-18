@@ -2,6 +2,7 @@
 #include <stdlib.h>
 void srand(unsigned int seed)
 {
-	printf("Congratulations you won\n");
+	printf("9 8 10 24 75 - 9\n");
+	printf("Congratulations, you win the Jackpot!\n");
 	exit(EXIT_SUCCESS);
 }
