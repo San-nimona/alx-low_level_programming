@@ -1,9 +1,8 @@
 <div class="s-prose js-post-body" itemprop="text">
 <p><strong>Prerequisites</strong></p>
 
-<p>For this answer I'm going to assume you know how to use pointers, structs, and have a basic understanding of the C language.</p>
 
-<p>Also if you don't know. When talking about the speed of algorithms and data structures you should know the terms:</p>
+<p>When talking about the speed of algorithms and data structures you should know the terms:</p>
 
 <p>O() = (it's pronounced "Big-oh") Big-oh or O() refers to the "worst-case-scenario" runtime. Similarly, in math, it's  big O notation and describes the limiting behavior of a function. If somethings O(1) that's constant time "really good". If somethings O(n) that means if the list is a million long. It is at worst going to run a million time. O() is generally the one used to determine how fast something runs because that's how fast it'll run in it's worst case.</p>
 
