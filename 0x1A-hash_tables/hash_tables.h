@@ -1,5 +1,6 @@
 #ifndef HASH_TABLE_T
 #define HASH_TABLE_T
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 /**
